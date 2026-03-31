@@ -27,14 +27,14 @@ const AboutAstrologer = () => {
           {/* Left — Image / Visual */}
           <div className="relative flex justify-center">
             {/* Decorative rings */}
-            <div className="absolute w-[380px] h-[380px] rounded-full border border-[hsl(43,74%,60%,0.12)]"
+            <div className="absolute w-[460px] h-[460px] rounded-full border border-[hsl(43,74%,60%,0.12)]"
               style={{ animation: "spin-slow 35s linear infinite" }} />
-            <div className="absolute w-[320px] h-[320px] rounded-full border border-[hsl(270,60%,55%,0.1)]"
+            <div className="absolute w-[390px] h-[390px] rounded-full border border-[hsl(270,60%,55%,0.1)]"
               style={{ animation: "spin-slow 25s linear infinite reverse" }} />
 
             {/* Portrait — Real Image */}
-            <div className="relative w-72 h-96 rounded-sm overflow-hidden"
-              style={{ border: "1px solid hsl(43,74%,60%,0.35)", boxShadow: "0 0 40px hsl(270,60%,20%,0.4)" }}>
+            <div className="relative w-[320px] h-[440px] rounded-sm overflow-hidden"
+              style={{ border: "1px solid hsl(43,74%,60%,0.35)", boxShadow: "0 0 50px hsl(270,60%,20%,0.5)" }}>
               <img
                 src="/mohini.jpg"
                 alt="Mohini Khatiyan"
